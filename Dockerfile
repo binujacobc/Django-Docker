@@ -1,7 +1,5 @@
 FROM binujacobc/django
 
-MAINTAINER Dockerfiles
-
 RUN apt-get update && \
     apt-get upgrade -y 
 
